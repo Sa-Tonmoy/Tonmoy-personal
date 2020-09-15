@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.nav-logo{
+    float: left;
+    text-align: left;
+
+}
+.nav-h{
+    text-align: left;
+    float: left;
+    margin-top: 50px;
+    padding-left: 80px;
+}
+.nav-m{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.nav-m a{
+    padding: 5px 8px;
+    margin: 20px 5px;
+    background-color: rebeccapurple;
+    float: right;
+}
+/*profile designed start*/
+
+.top-p-i{
+    position: absolute;
+    right: 100px;
+    width: 120px;
+    transition: width 3s, transform 3s;
+
+}
+.top-p-i:hover{
+    width: 160px;
+ 
+}
+.bottom-p-i{
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    width: 120px;
+    transition: width 3s, transform 3s;
+
+}
+.bottom-p-i:hover{
+    width: 160px;
+ 
+}
+
+/*profile designed end*/
+
+/*about me start*/
+.about-me-i{
+    margin-top: 100px;
+}
+.about-me-i img{
+    height: 270px;
+    width: 250px;
+}
+.about-me-m p{
+    text-align: left;
+
+}
+
+/*about me end*/
+.prof-main::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
+.contact-link{
+    position: relative;
+
+}
+.contact-link h2{
+    text-align: center;
+}
+.media-button{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-30% -30%);
+    margin-top: 100px;
+
+
+
+}
+.footer-menu{
+    margin-top: 12px;
+
+}
+.footer-menu a{
+    display: inline;
+    padding: 20px;
+}
+
